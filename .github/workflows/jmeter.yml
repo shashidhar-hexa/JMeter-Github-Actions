@@ -45,7 +45,7 @@ jobs:
         run: |
           python --version
           java -version
-          bzt --version
+      # bzt --version
 
       # Runs a single command using the runners shell
       - name: Run JMeter Test
