@@ -50,5 +50,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run JMeter Test
         run: |
-           bzt test.jmx -o reporting='[{"module": "passfail", "criteria": ["succ<100%,stop as failed"]}]'
+          bzt test.jmx -o reporting='[{"module": "passfail", "criteria": ["succ<100%,stop as failed"]}]'
       
